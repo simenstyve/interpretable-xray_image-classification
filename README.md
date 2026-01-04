@@ -94,10 +94,14 @@ Fairness and bias analysis
 Hybrid CNN + interpretable layer approaches
 Integration with inspection case management systems
 
-How to Run (Example)
+How to Run (Example):
+
+detect_and_classify_compliance.py 
 
 python train_bovw_svm_tan.py
+
 python main.py
+
 This repository focuses on methodology and structure rather than full production deployment.
 
 Disclaimer

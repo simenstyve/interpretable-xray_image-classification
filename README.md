@@ -31,12 +31,19 @@ Modular separation of training, inference, and model loading
 Responsible AI design for inspection support systems
 
 Repository Structure
-├── train_bovw_svm_tan.py        # Feature extraction, clustering, and model training
-├── detect_and_classify_compliance.py  # Image classification and risk logic
-├── inference.py                # End-to-end inference pipeline
-├── model_loader.py             # Model loading and abstraction layer
-├── main.py                     # Orchestration / entry point
+
+├── train_bovw_svm_tan.py          # Feature extraction, clustering, and model training
+
+├── detect_and_classify_compliance.py     # Image classification and risk logic
+
+├── inference.py                  # End-to-end inference pipeline
+
+├── model_loader.py               # Model loading and abstraction layer
+
+├── main.py                       # Orchestration / entry point
+
 ├── README.md
+
 └── .gitignore
 
 Large datasets, trained models, and raw X-ray images are intentionally excluded.
@@ -88,10 +95,12 @@ Hybrid CNN + interpretable layer approaches
 Integration with inspection case management systems
 
 How to Run (Example)
+
 python train_bovw_svm_tan.py
 python main.py
 This repository focuses on methodology and structure rather than full production deployment.
 
 Disclaimer
+
 This project is provided for research and portfolio demonstration purposes only.
 It does not represent a production enforcement or surveillance system.
